@@ -91,7 +91,7 @@ LR/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Bhavani-Rupa/Login-Registration-using-react
    cd LR
    ```
 
@@ -279,5 +279,6 @@ Created as part of a Udemy Web Development course project.
 ### 📞 Support
 
 If you have any questions or need help with the project, please feel free to open an issue or reach out!
+
 
 **Happy Coding! 🚀**
