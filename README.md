@@ -2,6 +2,17 @@
 
 A modern, responsive React web application featuring user authentication with beautiful UI design and smooth animations.
 
+
+## 🖥️ Technologies Used
+
+- **React** (Frontend library)
+- **React Router DOM** (Page navigation)
+- **Vite** (Development server and build tool)
+- **Bootstrap** (Styling and layout)
+- **Bootstrap Icons** (Icon library)
+- **JavaScript (ES6+)** (Programming language)
+- **CSS3** (Custom styles and animations)
+
 ## 📋 Table of Contents
 
 - [Features](#features)
@@ -261,3 +272,4 @@ Mock authentication service providing:
 - Unit testing suite
 
 **Happy Coding! 🚀**
+
