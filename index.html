@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+  This is the single HTML page for the app.
+  React will "attach" itself to the <div id="root"> below and control the content.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login & Register App</title>
+  <!--
+    We load Bootstrap's CSS from a CDN so the app looks nice without extra setup.
+  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+<body>
+  <!-- React mounts the app into this container -->
+  <div id="root"></div>
+  <!--
+    Bootstrap JavaScript (for components like the navbar toggler) from a CDN.
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!--
+    This starts our React application. Vite will handle this module during development/build.
+  -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
